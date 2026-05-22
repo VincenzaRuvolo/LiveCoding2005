@@ -56,6 +56,14 @@ public class Liste {
 		 */
 		
 		lista.forEach(n -> System.out.println(n));
+		
+		/*
+		 * lambda espression -> funzione anonima, compatta
+		 * s : parametro
+		 * -> : separa input e codice
+		 * System.out.println(s) : azione
+		 */
+		
 		Consumer<String> stampa = s -> System.out.println(s);
 		stampa.accept("Ciao Mondo");
 		
